@@ -1,0 +1,12 @@
+{
+  "model": "ragavsachdeva/magiv2",
+  "revision": "fbc890fec52977142e8ee00bfe26e9458b65517c",
+  "seed": 42,
+  "gpu": "NVIDIA GeForce RTX 5060 Laptop GPU",
+  "torch": "2.11.0+cu128",
+  "extractor_version": 2,
+  "ocr_max_new_tokens": 128,
+  "amp": true,
+  "ocr_batch": 8,
+  "embed_batch": 8
+}

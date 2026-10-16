@@ -1,0 +1,68 @@
+{
+  "selected_speaker_config": {
+    "learned_matcher": true,
+    "match_threshold": 0.35,
+    "use_ranker": true,
+    "link_threshold": 0.55,
+    "link_margin": 0.1
+  },
+  "training_counts": {
+    "story_counts": {
+      "0": 72,
+      "1": 1115
+    },
+    "narration_counts": {
+      "0": 1031,
+      "1": 61
+    }
+  },
+  "final_training_counts": {
+    "story_counts": {
+      "1": 1462,
+      "0": 80
+    },
+    "narration_counts": {
+      "0": 1372,
+      "1": 63
+    }
+  },
+  "speaker_training_counts": {
+    "pair_counts": {
+      "0": 296,
+      "1": 146
+    },
+    "ranker_counts": {
+      "0": 855,
+      "1": 774
+    },
+    "pair_sequences": 51,
+    "ranker_sequences": 41,
+    "ranker_training_balloons": 273,
+    "supervision": "weak labels from agreeing OCR-aligned development balloons; no box-level ground truth"
+  },
+  "final_speaker_training_counts": {
+    "pair_counts": {
+      "0": 374,
+      "1": 176
+    },
+    "ranker_counts": {
+      "0": 1140,
+      "1": 1078
+    },
+    "pair_sequences": 66,
+    "ranker_sequences": 57,
+    "ranker_training_balloons": 364,
+    "supervision": "weak labels from agreeing OCR-aligned development balloons; no box-level ground truth"
+  },
+  "packaging_verification": {
+    "reproduced_byte_identical": true,
+    "verification_training_byte_identical": true,
+    "selected_config_identical": true,
+    "training_validation_macro_identical": true,
+    "original_zip_preserved": true,
+    "cache_sequences": 95,
+    "speaker_configurations": 42,
+    "fresh_gpu_extraction": "not rerun",
+    "test_content_visual_audit": "not performed"
+  }
+}
